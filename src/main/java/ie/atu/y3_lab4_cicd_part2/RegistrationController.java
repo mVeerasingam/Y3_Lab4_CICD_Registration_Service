@@ -20,11 +20,5 @@ public class RegistrationController {
         return confirmationMsg;
     }
 
-//    @PostMapping("/confirm-and-register")
-//    public Map<String, String> confirmAndRegister(@RequestBody UserDetails userDetails){
-//        String confirm = registrationServiceClient.someDetails(userDetails);
-//        Map<String, String> responseMessage = new HashMap<>();
-//        responseMessage.put("message",confirm);
-//        return responseMessage;
-//    }
+
 }
